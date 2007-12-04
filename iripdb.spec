@@ -1,6 +1,6 @@
 %define name iripdb
 %define version 0.1.1
-%define release 1mdk
+%define release  %mkrel 1
 
 Summary: iRipDB allows generating the DB files necessary for the iRiver iHP-1xx series
 Name: %{name}
