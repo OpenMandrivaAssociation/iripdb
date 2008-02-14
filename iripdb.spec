@@ -2,7 +2,7 @@
 %define version 0.1.1
 %define release  %mkrel 1
 
-Summary: iRipDB allows generating the DB files necessary for the iRiver iHP-1xx series
+Summary: Generator of DB files necessary for the iRiver iHP-1xx series
 Name: %{name}
 Version: %{version}
 Release: %{release}
