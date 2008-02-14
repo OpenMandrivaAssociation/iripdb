@@ -9,6 +9,7 @@ Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Sound
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url: http://www.marevalo.net/iRipDB/
 BuildRequires: glibc-devel zlib1-devel libid3-devel libvorbis0-devel libogg-devel libstdc++6-devel
 Requires: zlib1
