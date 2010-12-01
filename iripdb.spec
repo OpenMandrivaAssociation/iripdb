@@ -1,6 +1,6 @@
 %define name iripdb
 %define version 0.1.1
-%define release  %mkrel 5
+%define release  %mkrel 6
 
 Summary: Generator of DB files necessary for the iRiver iHP-1xx series
 Name: %{name}
@@ -11,7 +11,6 @@ License: GPL
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url: http://www.marevalo.net/iRipDB/
-BuildRequires: zlib-devel
 BuildRequires: libid3lib3.8-devel
 BuildRequires: libvorbis-devel
 BuildRequires: libogg-devel
@@ -27,7 +26,7 @@ at this moment only in source code form.
 %setup -q
 
 %build
-%make all
+%make all CC="gcc %{optflags} %{ldflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
