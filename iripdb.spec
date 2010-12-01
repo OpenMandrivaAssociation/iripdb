@@ -7,6 +7,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
+Patch0: iripdb-0.1.1-link.patch
 License: GPL
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -24,6 +25,7 @@ at this moment only in source code form.
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
 %make all CC="gcc %{optflags} %{ldflags}"
