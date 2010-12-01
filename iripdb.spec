@@ -11,8 +11,10 @@ License: GPL
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url: http://www.marevalo.net/iRipDB/
-BuildRequires: glibc-devel zlib1-devel libid3-devel libvorbis0-devel libogg-devel libstdc++6-devel
-Requires: zlib1
+BuildRequires: zlib-devel
+BuildRequires: libid3lib3.8-devel
+BuildRequires: libvorbis-devel
+BuildRequires: libogg-devel
 
 %description
 RipDB allows generating the DB files necessary for the iRiver iHP-1xx series of
