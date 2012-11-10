@@ -1,0 +1,11 @@
+--- Makefile.link	2010-12-01 13:58:22.000000000 +0000
++++ Makefile	2010-12-01 13:58:48.000000000 +0000
+@@ -4,7 +4,7 @@
+ 
+ OBJ	=	$(SRC:.c=.o)
+ 
+-LDFLAGS	=	-L/usr/lib -lz -lm -lid3 -lvorbis -logg -lstdc++
++LDFLAGS	=	-L/usr/lib -lid3 -lvorbis -logg -lstdc++
+ 
+ CC	=	gcc
+ 
