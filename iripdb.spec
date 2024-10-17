@@ -11,7 +11,7 @@ Patch0: iripdb-0.1.1-link.patch
 License: GPL
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Url: http://www.marevalo.net/iRipDB/
+Url: https://www.marevalo.net/iRipDB/
 BuildRequires: libid3lib3.8-devel
 BuildRequires: libvorbis-devel
 BuildRequires: libogg-devel
