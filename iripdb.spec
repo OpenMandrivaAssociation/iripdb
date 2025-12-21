@@ -12,6 +12,7 @@ License: GPL
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url: https://www.marevalo.net/iRipDB/
+BuildRequires:	make
 BuildRequires: libid3lib3.8-devel
 BuildRequires: libvorbis-devel
 BuildRequires: libogg-devel
