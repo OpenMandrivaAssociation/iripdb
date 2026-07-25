@@ -1,6 +1,6 @@
 %define name iripdb
 %define version 0.1.1
-%define release  %mkrel 6
+%define release 7
 
 Summary: Generator of DB files necessary for the iRiver iHP-1xx series
 Name: %{name}
